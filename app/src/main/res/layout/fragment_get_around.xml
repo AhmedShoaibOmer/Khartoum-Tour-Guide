@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:paddingTop="8dp"
+    android:paddingBottom="32dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView"
+            style="@style/BodyTextStyle"
+            android:layout_marginStart="16dp"
+            android:text="@string/get_around_overview" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView2"
+            style="@style/TitleTextStyle"
+            android:text="@string/by_taxi"
+            app:drawableStartCompat="@drawable/ic_by_taxi"
+            app:drawableTint="?attr/colorAccent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView3"
+            style="@style/BodyTextStyle"
+            android:text="@string/by_taxi_text" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView4"
+            style="@style/TitleTextStyle"
+            android:text="@string/by_minibus"
+            app:drawableStartCompat="@drawable/ic_by_bus"
+            app:drawableTint="?attr/colorAccent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView5"
+            style="@style/BodyTextStyle"
+            android:text="@string/by_minibus_text" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView6"
+            style="@style/TitleTextStyle"
+            android:text="@string/by_car"
+            app:drawableStartCompat="@drawable/ic_by_car"
+            app:drawableTint="?attr/colorAccent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView7"
+            style="@style/BodyTextStyle"
+            android:text="@string/by_car_text_get_around" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView8"
+            style="@style/TitleTextStyle"
+            android:text="@string/by_three_wheeled_taxis"
+            app:drawableStartCompat="@drawable/ic_by_taxi"
+            app:drawableTint="?attr/colorAccent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView9"
+            style="@style/BodyTextStyle"
+            android:text="@string/by_three_wheeled_taxis_text" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView10"
+            style="@style/TitleTextStyle"
+            android:text="@string/by_boat"
+            app:drawableStartCompat="@drawable/ic_by_boat"
+            app:drawableTint="?attr/colorAccent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView11"
+            style="@style/BodyTextStyle"
+            android:text="@string/by_boat_text_get_around" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

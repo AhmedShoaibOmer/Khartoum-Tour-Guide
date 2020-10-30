@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_overview"
+            android:checked="true"
+            android:icon="@drawable/ic_overview"
+            android:title="@string/overview" />
+        <item
+            android:id="@+id/nav_get_in"
+            android:icon="@drawable/ic_get_in"
+            android:title="@string/get_in" />
+        <item
+            android:id="@+id/nav_get_around"
+            android:icon="@drawable/ic_get_around"
+            android:title="@string/get_around" />
+        <item
+            android:id="@+id/nav_see"
+            android:icon="@drawable/ic_see"
+            android:title="@string/see" />
+        <item
+            android:id="@+id/nav_do"
+            android:icon="@drawable/ic_do"
+            android:title="@string/do_str" />
+        <item
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/ic_buy"
+            android:title="@string/buy" />
+        <item
+            android:id="@+id/nav_eat"
+            android:icon="@drawable/ic_eat"
+            android:title="@string/eat" />
+        <item
+            android:id="@+id/nav_drink"
+            android:icon="@drawable/ic_drink"
+            android:title="@string/drink" />
+        <item
+            android:id="@+id/nav_sleep"
+            android:icon="@drawable/ic_sleep"
+            android:title="@string/sleep" />
+        <item
+            android:id="@+id/nav_cope"
+            android:icon="@drawable/ic_cope"
+            android:title="@string/cope" />
+    </group>
+</menu>

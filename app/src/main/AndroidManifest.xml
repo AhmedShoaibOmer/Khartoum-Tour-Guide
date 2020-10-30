@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TourGuide">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:name=".HomeActivity"
             android:theme="@style/Theme.TourGuide.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
