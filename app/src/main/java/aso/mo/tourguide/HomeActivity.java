@@ -22,10 +22,15 @@ import com.google.android.material.navigation.NavigationView;
 import java.util.ArrayList;
 import java.util.Objects;
 
+import aso.mo.tourguide.ui.cope.CopeFragment;
+import aso.mo.tourguide.ui.drink.DrinkFragment;
+import aso.mo.tourguide.ui.eat.EatFragment;
 import aso.mo.tourguide.ui.getaround.GetAroundFragment;
 import aso.mo.tourguide.ui.getin.GetInFragment;
-import aso.mo.tourguide.ui.main.PlaceholderFragment;
 import aso.mo.tourguide.ui.overview.OverviewFragment;
+import aso.mo.tourguide.ui.see.SeeBahriFragment;
+import aso.mo.tourguide.ui.see.SeeKhartoumFragment;
+import aso.mo.tourguide.ui.see.SeeOmdurmanFragment;
 import aso.mo.tourguide.ui.tabs.TabsFragment;
 
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -123,9 +128,9 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             }
             case R.id.nav_see: {
                 ArrayList<Fragment> fragments = new ArrayList<>();
-                fragments.add(PlaceholderFragment.newInstance(3));
-                fragments.add(PlaceholderFragment.newInstance(3));
-                fragments.add(PlaceholderFragment.newInstance(3));
+                fragments.add(new SeeKhartoumFragment());
+                fragments.add(new SeeOmdurmanFragment());
+                fragments.add(new SeeBahriFragment());
                 ArrayList<Integer> titlesIDs = new ArrayList<>();
                 titlesIDs.add(R.string.khartoum);
                 titlesIDs.add(R.string.omdurman);
@@ -134,33 +139,18 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 mToolbar.setTitle(R.string.see);
                 break;
             }
-            case R.id.nav_do: {
-                navigateToFragment(PlaceholderFragment.newInstance(4));
-                mToolbar.setTitle(R.string.do_str);
-                break;
-            }
-            case R.id.nav_buy: {
-                navigateToFragment(PlaceholderFragment.newInstance(5));
-                mToolbar.setTitle(R.string.buy);
-                break;
-            }
             case R.id.nav_eat: {
-                navigateToFragment(PlaceholderFragment.newInstance(6));
+                navigateToFragment(new EatFragment());
                 mToolbar.setTitle(R.string.eat);
                 break;
             }
             case R.id.nav_drink: {
-                navigateToFragment(PlaceholderFragment.newInstance(7));
+                navigateToFragment(new DrinkFragment());
                 mToolbar.setTitle(R.string.drink);
                 break;
             }
-            case R.id.nav_sleep: {
-                navigateToFragment(PlaceholderFragment.newInstance(8));
-                mToolbar.setTitle(R.string.sleep);
-                break;
-            }
             case R.id.nav_cope: {
-                navigateToFragment(PlaceholderFragment.newInstance(9));
+                navigateToFragment(new CopeFragment());
                 mToolbar.setTitle(R.string.cope);
                 break;
             }

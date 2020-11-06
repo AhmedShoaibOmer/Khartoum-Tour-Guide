@@ -44,7 +44,7 @@ public class TabsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_ytabs, container, false);
+        View v = inflater.inflate(R.layout.fragment_tabs, container, false);
 
         // initialize the view pager adapter.
         ViewPagerAdapter mViewPagerAdapter = new ViewPagerAdapter(requireContext(), getChildFragmentManager());

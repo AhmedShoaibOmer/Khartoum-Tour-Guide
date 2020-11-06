@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TourGuide">
         <activity
+            android:name=".ui.DetailsActivity"
+            android:label="@string/title_activity_details"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/Theme.TourGuide.NoActionBar"></activity>
+        <activity
             android:name=".HomeActivity"
             android:theme="@style/Theme.TourGuide.NoActionBar">
             <intent-filter>

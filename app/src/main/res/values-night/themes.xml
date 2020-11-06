@@ -19,4 +19,9 @@
         <!--        <item name="android:windowBackground">@drawable/overview_background</item>-->
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.TourGuide.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

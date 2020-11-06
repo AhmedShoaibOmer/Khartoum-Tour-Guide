@@ -21,14 +21,7 @@
             android:id="@+id/nav_see"
             android:icon="@drawable/ic_see"
             android:title="@string/see" />
-        <item
-            android:id="@+id/nav_do"
-            android:icon="@drawable/ic_do"
-            android:title="@string/do_str" />
-        <item
-            android:id="@+id/nav_buy"
-            android:icon="@drawable/ic_buy"
-            android:title="@string/buy" />
+
         <item
             android:id="@+id/nav_eat"
             android:icon="@drawable/ic_eat"
@@ -37,10 +30,6 @@
             android:id="@+id/nav_drink"
             android:icon="@drawable/ic_drink"
             android:title="@string/drink" />
-        <item
-            android:id="@+id/nav_sleep"
-            android:icon="@drawable/ic_sleep"
-            android:title="@string/sleep" />
         <item
             android:id="@+id/nav_cope"
             android:icon="@drawable/ic_cope"
